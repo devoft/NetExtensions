@@ -1,10 +1,13 @@
+using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace System.Collections.Specialized
+namespace devoft.System.Collections.Specialized
 {
     public abstract class ObservableViewBase<T> : IEnumerable<T>, INotifyCollectionChanged, INotifyPropertyChanged
     {

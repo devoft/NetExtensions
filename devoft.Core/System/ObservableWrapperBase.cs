@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace System
+namespace devoft.System
 {
     public abstract class ObservableWrapperBase<T> : IObservable<T>
     {

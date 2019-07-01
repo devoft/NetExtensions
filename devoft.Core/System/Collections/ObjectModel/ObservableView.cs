@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using devoft.System.Collections.Generic;
+using System;
+using System.Collections.Generic;
 using System.Linq;
 
-namespace System.Collections.Specialized
+namespace devoft.System.Collections.Specialized
 {
     /// <summary>
     /// Colección cuyo contenido se actualiza mediante consultas y que notifica los cambios

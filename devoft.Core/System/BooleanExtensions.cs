@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace System
+namespace devoft.System
 {
     public static class BooleanExtensions
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace System
+namespace devoft.System
 {
     public class ValueEventArgs<TValue> : EventArgs
     {

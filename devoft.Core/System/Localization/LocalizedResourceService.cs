@@ -6,7 +6,7 @@ using System.ComponentModel.Design;
 using System.Globalization;
 using System.Threading.Tasks;
 
-namespace devoft.Core.System.Localization
+namespace devoft.System.Localization
 {
     public class LocalizedResourceService : ILocalizedResourceService
     {

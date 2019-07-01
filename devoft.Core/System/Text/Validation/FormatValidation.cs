@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace System
+namespace devoft.System
 {
     public static class FormatValidation
     {

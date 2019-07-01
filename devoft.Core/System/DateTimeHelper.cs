@@ -1,8 +1,9 @@
-﻿using System.Globalization;
+﻿using System;
+using System.Globalization;
 using System.Windows;
 using Calendar = System.Globalization.Calendar;
 
-namespace System
+namespace devoft.System
 {
     public static class DateTimeHelper
     {

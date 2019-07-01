@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System.ComponentModel.Design;
 
-namespace devoft.Core.System.Localization
+namespace devoft.System.Localization
 {
     public static class LocalizedResourceServiceInjectionExtensions
     {

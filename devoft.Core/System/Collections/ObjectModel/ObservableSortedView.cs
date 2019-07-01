@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.Linq;
 
-namespace System.Collections.Specialized
+namespace devoft.System.Collections.Specialized
 {
     public class ObservableSortedView<T> : ObservableViewBase<T>, ICollection<T>
     {

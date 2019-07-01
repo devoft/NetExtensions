@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 
-namespace System
+namespace devoft.System
 {
     public class Disposable<T> : IDisposable
         where T : class

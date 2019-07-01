@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using devoft.Core.Patterns;
 
-namespace System
+namespace devoft.System
 {
     public static class ObjectExtensions
     {

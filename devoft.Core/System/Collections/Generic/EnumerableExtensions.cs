@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace System.Collections.Generic
+namespace devoft.System.Collections.Generic
 {
     public static class EnumerableExtensions
     {

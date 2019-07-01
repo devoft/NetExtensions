@@ -4,10 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using devoft.Core.Patterns;
+using devoft.System;
 
-namespace devoft.Core.System.Collections.Generic
+namespace devoft.System.Collections.Generic
 {
-    public class ScopedDictionary<TKey, TValue> 
+    public class ScopedDictionary<TKey, TValue>
         : HierarchicalObject<ScopedDictionary<TKey, TValue>>,
           IDictionary<TKey, TValue>, IHierarchicalObject<ScopedDictionary<TKey, TValue>>
     {

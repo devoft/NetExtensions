@@ -1,4 +1,4 @@
-﻿namespace devoft.Core.System.Localization
+﻿namespace devoft.System.Localization
 {
     public class LocalizedResourceEntry
     {

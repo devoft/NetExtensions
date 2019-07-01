@@ -1,5 +1,5 @@
 ﻿using System;
-using devoft.Core.System.Collections.Generic;
+using devoft.System.Collections.Generic;
 
 namespace devoft.Core.Patterns.Scoping
 {

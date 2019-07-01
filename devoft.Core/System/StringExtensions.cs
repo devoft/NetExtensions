@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace System
+namespace devoft.System
 {
     public static class StringExtensions
     {
@@ -29,7 +29,7 @@ namespace System
         /// <param name="count">cantidad de caractéres máximo de la subcadena resultante</param>
         /// <returns>Subcadena de resultante</returns>
         public static string TruncateTo(this string str, int count)
-            => !str.IsEmpty() ? str.Substring(0, System.Math.Min(count, str.Length)) : string.Empty;
+            => !str.IsEmpty() ? str.Substring(0, Math.Min(count, str.Length)) : string.Empty;
 
         /// <summary>
         /// Indica si <b>str</b> es <b>null</b>, cadena vacía, o espacios en blanco

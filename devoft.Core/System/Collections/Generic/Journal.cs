@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace devoft.Core.System.Collections.Generic
+namespace devoft.System.Collections.Generic
 {
     public class Journal<T>
     {

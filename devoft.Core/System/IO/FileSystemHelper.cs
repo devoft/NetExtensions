@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 
-namespace System.IO
+namespace devoft.System.IO
 {
     public static class FileSystemHelper
     {

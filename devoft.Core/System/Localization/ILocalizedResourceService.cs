@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace devoft.Core.System.Localization
+namespace devoft.System.Localization
 {
     public interface ILocalizedResourceService
     {
