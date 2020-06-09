@@ -20,6 +20,10 @@ namespace devoft.Core.Patterns.Scoping
             return result;
         }
 
+        public override void End(ScopeContext context, bool result)
+        {
+        }
+
         public IEnumerable<object> Records
             => _records;
 

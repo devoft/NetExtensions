@@ -130,7 +130,7 @@ namespace devoft.Core.Patterns.Scoping
         }
 
         protected virtual void OnEndScope(ScopeContext context, bool result)
-            => _aspects.ForEach(aspect => aspect.End(context, result));
+            => _aspects.Reverse<IScopeAspect>().ForEach(aspect => aspect.End(context, result));
 
         public void Dispose()
         {

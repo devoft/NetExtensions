@@ -76,11 +76,6 @@ namespace devoft.System.Collections.Generic
             return true;
         }
 
-        public static HashSet<T> ToHashSet<T>(this IEnumerable<T> collection)
-            => collection == null
-                     ? new HashSet<T>()
-                     : (collection as HashSet<T>) ?? new HashSet<T>(collection);
-
         public static Dictionary<TKey, TValue> SafeToDictionary<T, TKey, TValue>(this IEnumerable<T> collection, Func<T, TKey> keySelector, Func<T, TValue> valueSelector)
             => collection?.ToDictionary(keySelector, valueSelector) ?? new Dictionary<TKey, TValue>();
 

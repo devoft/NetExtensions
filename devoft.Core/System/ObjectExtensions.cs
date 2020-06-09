@@ -123,8 +123,9 @@ namespace devoft.System
 
         public static void Set(this object target, string propertyName, object value)
             => target.GetType().GetProperty(propertyName).SetValue(target, value);
+        
         public static T Get<T>(this object target, string propertyName)
-            => (T) target.GetType().GetProperty(propertyName).GetValue(null);
+            => (T) target.GetType().GetProperty(propertyName).GetValue(target);
 
 
         public static bool IsInstanceOf<T>(this object obj)

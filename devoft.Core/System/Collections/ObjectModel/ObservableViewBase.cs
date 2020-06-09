@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace devoft.System.Collections.Specialized
 {
-    public abstract class ObservableViewBase<T> : IEnumerable<T>, INotifyCollectionChanged, INotifyPropertyChanged
+    public abstract class ObservableViewBase<T> : IEnumerable<T>, IReadOnlyList<T>, INotifyCollectionChanged, INotifyPropertyChanged
     {
         protected T[] ViewArray = new T[0];
         private NotifyCollectionChangedEventHandler _collectionChangedHandler;

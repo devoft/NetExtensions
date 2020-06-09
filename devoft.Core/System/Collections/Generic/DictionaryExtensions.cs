@@ -15,6 +15,13 @@ namespace devoft.System.Collections.Generic
         public static TValue Ensure<TKey, TValue>(this IDictionary<TKey, TValue> dict, TKey key)
             where TValue : new()
             => dict.Ensure(key, () => new TValue());
+
+        public static IDictionary<TKey, TValue> MergeWith<TKey, TValue>(this IDictionary<TKey, TValue> dict, IDictionary<TKey, TValue> other)
+        {
+            foreach (var item in other)
+                dict[item.Key] = item.Value;
+            return dict;
+        }
     }
 
 }
